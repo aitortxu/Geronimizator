@@ -1,6 +1,8 @@
 Geronimizator
 =============
 
+(Handle with care, this is a ultraalpha version)
+
 Simple Grails plugin to generate some files in order to deploy in a Geronimo (IBM WAS CE) server.
 
 You needs to declare some variables in your BuildConfig.groovy:
