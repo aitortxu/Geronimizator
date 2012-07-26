@@ -3,7 +3,7 @@ includeTargets << grailsScript("_GrailsSettings")
 
 target(main: "Generate the deploy file and repository") {
 
-	File geronimoWebXML = new File("./target/geronimo-web.xml")
+	File geronimoWebXML = new File("./web-app/WEB-INF/geronimo-web.xml")
 	new File("./repository").mkdir()  
 	geronimoWebXML.write("")
 	geronimoWebXML.append ("""
